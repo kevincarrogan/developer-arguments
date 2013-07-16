@@ -32,14 +32,20 @@
                     </li>
                 </ul>
             </nav>
+
+            <p>
+                Are you a developer? Are you bored at work? Here, have an argument.
+            </p>
         </header>
 
         <main>
             <h1>
-                {{ challenger_one }} vs. {{ challenger_two }}
+                <span class="challenger-one">{{ challenger_one }}</span>
+                <span class="versus">vs.</span>
+                </span class="challenger-two">{{ challenger_two }}</span>
             </h1>
 
-            <ul class="tags">
+            <ul class="tags clearfix">
                 {{#tags}}
                 <li>
                     {{ . }}

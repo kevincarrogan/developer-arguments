@@ -93,7 +93,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-size: 2em;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 960px;
+    text-align: center;
+    width: 80%;
+}
 
+main > h1 {
+    font-size: 400%;
+}
+
+main > h1 span {
+    display: block;
+}
+
+main > h1 .versus {
+    font-size: 50%;
+    margin: -0.5em 0;
+}
+
+.tags {
+    margin: 0;
+    padding: 0;
+}
+
+.tags li {
+    float: left;
+}
 
 /* ==========================================================================
    Helper classes
