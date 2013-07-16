@@ -20,23 +20,23 @@ loader = Loader()
 
 arguments = [
     (
-        'CBV', 'FBV',
+        ('CBV', 'FBV',),
         ('django', 'python',)
     ),
     (
-        'Linux', 'Mac OS X',
+        ('Linux', 'Mac OS X',),
         ('os',)
     ),
     (
-        'Emacs', 'Vi',
+        ('Emacs', 'Vi',),
         ('editors',)
     ),
     (
-        'Semi-colons', 'No semi-colons',
+        ('Semi-colons', 'No semi-colons',),
         ('javascript',)
     ),
     (
-        'Mac', 'PC',
+        ('Mac', 'PC',),
         ('os',)
     ),
 ]
@@ -64,9 +64,12 @@ def render_template(section_name):
 def home():
     argument = random.choice(arguments)
 
-    challenger_one = argument[0]
-    challenger_two = argument[1]
-    tags = argument[2]
+    challengers = list(argument[0])
+    random.shuffle(challengers)
+
+    challenger_one = challengers[0]
+    challenger_two = challengers[1]
+    tags = argument[1]
 
     return {
         'challenger_one': challenger_one,
