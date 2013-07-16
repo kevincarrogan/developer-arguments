@@ -39,6 +39,30 @@ arguments = [
         ('Mac', 'PC',),
         ('os',)
     ),
+    (
+        ('Consoles', 'PC',),
+        ('games',)
+    ),
+    (
+        ('Angular', 'Backbone',),
+        ('javascript',)
+    ),
+    (
+        ('Ruby on Rails', 'Django',),
+        ('frameworks',)
+    ),
+    (
+        ('PHP', 'Anything else',),
+        ('languages',)
+    ),
+    (
+        ('Feature switching', 'Branching',),
+        ('workflow',)
+    ),
+    (
+        ('Meetings', 'Doing actual work',),
+        ('workflow',)
+    )
 ]
 
 
