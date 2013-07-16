@@ -1,4 +1,5 @@
 import functools
+import random
 
 import os
 import gevent
@@ -15,6 +16,30 @@ from flask import Flask
 app = Flask(__name__)
 app.debug = True
 loader = Loader()
+
+
+arguments = [
+    (
+        'CBV', 'FBV',
+        ('django', 'python',)
+    ),
+    (
+        'Linux', 'Mac OS X',
+        ('os',)
+    ),
+    (
+        'Emacs', 'Vi',
+        ('editors',)
+    ),
+    (
+        'Semi-colons', 'No semi-colons',
+        ('javascript',)
+    ),
+    (
+        'Mac', 'PC',
+        ('os',)
+    ),
+]
 
 
 def render_template(section_name):
@@ -37,7 +62,17 @@ def render_template(section_name):
 @app.route('/')
 @render_template('home')
 def home():
-    return {}
+    argument = random.choice(arguments)
+
+    challenger_one = argument[0]
+    challenger_two = argument[1]
+    tags = argument[2]
+
+    return {
+        'challenger_one': challenger_one,
+        'challenger_two': challenger_two,
+        'tags': tags,
+    }
 
 
 if __name__ == '__main__':

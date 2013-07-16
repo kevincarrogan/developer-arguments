@@ -25,7 +25,7 @@
                         <a href="/about/">About</a>
                     </li>
                     <li>
-                        <a href="/random/">Random</a>
+                        <a href="/">Random</a>
                     </li>
                     <li>
                         <a href="/browse/">Browse</a>
@@ -36,20 +36,19 @@
 
         <main>
             <h1>
-                CBV vs. FBV
+                {{ challenger_one }} vs. {{ challenger_two }}
             </h1>
 
             <ul class="tags">
+                {{#tags}}
                 <li>
-                    Python
+                    {{ . }}
                 </li>
-                <li>
-                    Django
-                </li>
+                {{/tags}}
             </ul>
 
             <p>
-                Want another <a href="/random/">argument</a>?
+                Want another <a href="/">argument</a>?
             </p>
         </main>
     </body>
