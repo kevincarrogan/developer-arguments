@@ -62,7 +62,35 @@ arguments = [
     (
         ('Meetings', 'Doing actual work',),
         ('workflow',)
-    )
+    ),
+    (
+        ('IDE', 'Text Editor',),
+        ('editors',),
+    ),
+    (
+        ('iOS', 'Android',),
+        ('os',),
+    ),
+    (
+        ('XBox', 'PlayStation',),
+        ('games',),
+    ),
+    (
+        ('Compiled', 'Interpreted',),
+        ('languages',),
+    ),
+    (
+        ('Spaces', 'Tabs',),
+        ('code',),
+    ),
+    (
+        ('Photoshop', 'Gimp',),
+        ('editors',),
+    ),
+    (
+        ('CLI', 'GUI',),
+        ('cli', 'gui',),
+    ),
 ]
 
 
