@@ -7,3 +7,4 @@ wsgiref==0.1.2
 greenlet==0.4.0
 gunicorn==0.16.1
 gevent
+newrelic==1.13.1.31
