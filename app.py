@@ -89,7 +89,15 @@ arguments = [
     ),
     (
         ('CLI', 'GUI',),
-        ('cli', 'gui',),
+        (),
+    ),
+    (
+        ('XML', 'JSON',),
+        ('formats',),
+    ),
+    (
+        ('CoffeeScript', 'Plain JS',),
+        ('languages',),
     ),
 ]
 
