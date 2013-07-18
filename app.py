@@ -115,6 +115,54 @@ arguments = [
         ('Pronounced jif', 'Pronounced gif',),
         ('naming',),
     ),
+    (
+        ('Top posting', 'Bottom posting',),
+        ('email',),
+    ),
+    (
+        ('SysV', 'BSD',),
+        ('os',),
+    ),
+    (
+        ('Sun OS', 'Solaris',),
+        ('os',),
+    ),
+    (
+        ('Carbon', 'Cocoa',),
+        ('frameworks',),
+    ),
+    (
+        ('Sockets', 'Streams',),
+        (),
+    ),
+    (
+        ('IPv4', 'IPv6',),
+        ('protocols',),
+    ),
+    (
+        ('REST', 'SOAP',),
+        ('protocols',),
+    ),
+    (
+        ('ASCII', 'EBCDIC',),
+        (),
+    ),
+    (
+        ('Little endian', 'Big endian',),
+        ('fundamentals'),
+    ),
+    (
+        ('PowerPC', 'Intel',),
+        ('hardware',),
+    ),
+    (
+        ('nVidia', 'ATI',),
+        ('hardware',),
+    ),
+    (
+        ('OpenGL', 'DirectX',),
+        ('frameworks',),
+    ),
 ]
 
 
