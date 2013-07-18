@@ -107,6 +107,14 @@ arguments = [
         ('MySQL', 'Postgres',),
         ('databases',),
     ),
+    (
+        ('Pronounced OS eks', 'Pronounced OS ten',),
+        ('naming',),
+    ),
+    (
+        ('Pronounced jif', 'Pronounced gif',),
+        ('naming',),
+    ),
 ]
 
 
