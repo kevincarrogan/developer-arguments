@@ -171,6 +171,10 @@ arguments = [
         ('Native', 'Web',),
         (),
     ),
+    (
+        ('BSD KNF Style', 'Allman Style',),
+        ('code',),
+    ),
 ]
 
 
