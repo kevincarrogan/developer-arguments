@@ -163,6 +163,10 @@ arguments = [
         ('OpenGL', 'DirectX',),
         ('frameworks',),
     ),
+    (
+        ('Git', 'Mercurial',),
+        ('versioning',),
+    ),
 ]
 
 
