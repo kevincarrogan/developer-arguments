@@ -167,6 +167,10 @@ arguments = [
         ('Git', 'Mercurial',),
         ('versioning',),
     ),
+    (
+        ('Native', 'Web',),
+        (),
+    ),
 ]
 
 
