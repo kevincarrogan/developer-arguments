@@ -99,6 +99,14 @@ arguments = [
         ('CoffeeScript', 'Plain JS',),
         ('languages',),
     ),
+    (
+        ('NoSQL', 'SQL',),
+        ('databases',),
+    ),
+    (
+        ('MySQL', 'Postgres',),
+        ('databases',),
+    ),
 ]
 
 
