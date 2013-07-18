@@ -175,6 +175,10 @@ arguments = [
         ('BSD KNF Style', 'Allman Style',),
         ('code',),
     ),
+    (
+        ('FP', 'OOP',),
+        ('languages',),
+    ), 
 ]
 
 
