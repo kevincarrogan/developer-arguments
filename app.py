@@ -172,7 +172,7 @@ arguments = [
         (),
     ),
     (
-        ('BSD KNF Style', 'Allman Style'),
+        ('BSD KNF Style', 'Allman Style',),
         ('code',),
     ),
 ]
