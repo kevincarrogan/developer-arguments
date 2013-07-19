@@ -179,6 +179,14 @@ arguments = [
         ('FP', 'OOP',),
         ('languages',),
     ), 
+    (
+        ('Java', 'C++',),
+        ('languages',),
+    ),
+    (
+        ('Python', 'Ruby',),
+        ('languages',),
+    ),
 ]
 
 
