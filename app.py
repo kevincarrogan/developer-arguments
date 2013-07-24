@@ -112,7 +112,7 @@ arguments = [
         ('naming',),
     ),
     (
-        ('Pronounced jif', 'Pronounced gif',),
+        ('Pronounced gif', 'Pronounced gif',),
         ('naming',),
     ),
     (
