@@ -28,7 +28,7 @@ arguments = [
         ('os',)
     ),
     (
-        ('Emacs', 'Vi',),
+        ('Emacs', 'Vim',),
         ('editors',)
     ),
     (
