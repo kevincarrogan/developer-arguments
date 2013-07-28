@@ -10,7 +10,7 @@ gevent.monkey.patch_all()
 from pystache.loader import Loader
 from pystache import render
 
-from flask import Flask
+from flask import Flask, redirect, abort
 
 
 app = Flask(__name__)
@@ -190,13 +190,23 @@ arguments = [
 ]
 
 
+def slugify(string):
+    return string.lower().replace(' ', '-')
+
+
+routes = {
+    (slugify(argument[0][0]), slugify(argument[0][1]),): (argument[0][0], argument[0][1],) for argument in arguments
+}
+
+
 def render_template(section_name):
     template = loader.load_name('templates/%s' % section_name)
 
     def func_wrapper(func):
+
         @functools.wraps(func)
-        def renderer():
-            context = func()
+        def renderer(*args, **kwargs):
+            context = func(*args, **kwargs)
 
             return render(
                 template,
@@ -208,22 +218,30 @@ def render_template(section_name):
 
 
 @app.route('/')
-@render_template('home')
 def home():
-    argument = random.choice(arguments)
-
-    challengers = list(argument[0])
-    random.shuffle(challengers)
+    challengers = random.choice(arguments)[0]
+    challengers = map(slugify, challengers)
 
     challenger_one = challengers[0]
     challenger_two = challengers[1]
-    tags = argument[1]
 
-    return {
-        'challenger_one': challenger_one,
-        'challenger_two': challenger_two,
-        'tags': tags,
-    }
+    return redirect('/%s-vs-%s/' % (challenger_one, challenger_two,))
+
+
+@app.route('/<argument>/')
+@render_template('argument')
+def argument(argument):
+    route_key = tuple(argument.split('-vs-'))
+
+    try:
+        challengers = routes[route_key]
+
+        return {
+            'challenger_one': challengers[0],
+            'challenger_two': challengers[1],
+        }
+    except KeyError:
+        return abort(404)
 
 
 if __name__ == '__main__':
