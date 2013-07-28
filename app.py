@@ -187,6 +187,10 @@ arguments = [
         ('Python', 'Ruby',),
         ('languages',),
     ),
+    (
+        ('Zsh', 'Bash',),
+        ('os',),
+    ),
 ]
 
 
