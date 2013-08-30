@@ -115,6 +115,10 @@ main > h1 .versus {
     margin: -0.5em 0;
 }
 
+main {
+    margin-bottom: 2em;
+}
+
 .tags {
     margin: 0;
     padding: 0;
@@ -122,10 +126,6 @@ main > h1 .versus {
 
 .tags li {
     float: left;
-}
-
-#disqus_thread {
-    margin-top: 1em;
 }
 
 /* ==========================================================================

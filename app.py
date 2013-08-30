@@ -226,30 +226,22 @@ def render_template(section_name):
 
 
 @app.route('/')
+@render_template('home')
 def home():
-    challengers = random.choice(arguments)[0]
-    challengers = map(slugify, challengers)
+    argument = random.choice(arguments)
+
+    challengers = list(argument[0])
+    random.shuffle(challengers)
 
     challenger_one = challengers[0]
     challenger_two = challengers[1]
+    tags = argument[1]
 
-    return redirect('/%s-vs-%s/' % (challenger_one, challenger_two,))
-
-
-@app.route('/<argument>/')
-@render_template('argument')
-def argument(argument):
-    route_key = tuple(argument.split('-vs-'))
-
-    try:
-        challengers = routes[route_key]
-
-        return {
-            'challenger_one': challengers[0],
-            'challenger_two': challengers[1],
-        }
-    except KeyError:
-        return abort(404)
+    return {
+        'challenger_one': challenger_one,
+        'challenger_two': challenger_two,
+        'tags': tags,
+    }
 
 
 if __name__ == '__main__':
