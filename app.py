@@ -191,6 +191,10 @@ arguments = [
         ('Zsh', 'Bash',),
         ('os',),
     ),
+    (
+        ('LESS', 'SASS',),
+        ('CSS extensions',),
+    ),
 ]
 
 
