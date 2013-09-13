@@ -195,6 +195,10 @@ arguments = [
         ('LESS', 'SASS',),
         ('CSS extensions',),
     ),
+    (
+        ('jQuery animations', 'CSS Animations'),
+        ('web'),
+    )
 ]
 
 
