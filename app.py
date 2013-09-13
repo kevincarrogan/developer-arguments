@@ -198,7 +198,7 @@ arguments = [
     (
         ('jQuery animations', 'CSS Animations'),
         ('web'),
-    )
+    ),
 ]
 
 
