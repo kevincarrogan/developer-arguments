@@ -199,6 +199,10 @@ arguments = [
         ('jQuery animations', 'CSS Animations'),
         ('web'),
     ),
+    (
+        ('Boolean', 'boolean',),
+        (),
+    ),
 ]
 
 
