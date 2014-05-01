@@ -203,6 +203,10 @@ arguments = [
         ('Boolean', 'boolean',),
         (),
     ),
+    (
+        ('DHH', 'TDD',),
+        (),
+    ),
 ]
 
 
