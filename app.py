@@ -219,6 +219,10 @@ arguments = [
         ('Flask', 'Bottle'),
         ('Frameworks',),
     ),
+    (
+        ('MIT', 'GPL'),
+        ('Licenses',),
+    )
 ]
 
 
