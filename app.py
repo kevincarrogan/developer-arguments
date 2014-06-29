@@ -231,6 +231,10 @@ arguments = [
         ('Marvel', 'DC'),
         ('Comics',),
     ),
+    (
+        ('Star Wars', 'Star Trek'),
+        (),
+    ),
 ]
 
 
