@@ -222,7 +222,15 @@ arguments = [
     (
         ('MIT', 'GPL'),
         ('Licenses',),
-    )
+    ),
+    (
+        ('Inverted', 'Non-inverted mouse'),
+        ('Gaming',),
+    ),
+    (
+        ('Marvel', 'DC'),
+        ('Comics',),
+    ),
 ]
 
 
