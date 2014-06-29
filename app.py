@@ -205,11 +205,19 @@ arguments = [
     ),
     (
         ('DHH', 'TDD',),
-        (),
+        ('Testing', 'Internet "celebrities"'),
     ),
     (
         ('Swift', 'Objective C'),
-        (),
+        ('Languages', 'iOS',),
+    ),
+    (
+        ('Grunt', 'Gulp'),
+        ('Build tools',),
+    ),
+    (
+        ('Flask', 'Bottle'),
+        ('Frameworks',),
     ),
 ]
 
