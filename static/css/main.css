@@ -104,6 +104,7 @@ body {
 
 main > h1 {
     font-size: 400%;
+    margin: .25em;
 }
 
 main > h1 span {
