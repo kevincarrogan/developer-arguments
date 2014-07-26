@@ -129,6 +129,22 @@ main {
     float: left;
 }
 
+.affiliate-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.affiliate-links li {
+    display: inline-block;
+    margin-right: .25em;
+}
+
+.affiliate-links li:last-of-type {
+    margin: 0;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

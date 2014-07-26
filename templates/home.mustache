@@ -41,6 +41,12 @@
             <p>
                 <a href="http://github.com/kevincarrogan/developer-arguments/">Github</a>
             </p>
+
+            <ul class="affiliate-links">
+            {{# affiliate_links }}
+                <li>{{& . }}</li>
+            {{/ affiliate_links }}
+            </ul>
         </main>
 
         <script>
