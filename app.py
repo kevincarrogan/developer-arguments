@@ -15,7 +15,6 @@ from flask import Flask, abort, url_for
 
 
 app = Flask(__name__)
-app.debug = True
 loader = Loader()
 
 
