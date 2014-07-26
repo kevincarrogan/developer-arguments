@@ -425,7 +425,8 @@ def home():
     argument = random.choice(arguments)
 
     challengers, tags, affiliate_links = argument
-    random.shuffle(list(challengers))
+    challengers = list(challengers)
+    random.shuffle(challengers)
 
     challenger_one, challenger_two = challengers
 
