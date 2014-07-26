@@ -386,7 +386,7 @@ def render_template(section_name):
     return func_wrapper
 
 
-def get_context_data(challenger_one, challenger_two, tags, affiliate_links):
+def get_context_data(challenger_one, challenger_two, tags, affiliate_links, perm=False):
     permalink = url_for(
         'permalink',
         challenger_one=slugify(challenger_one),
@@ -399,6 +399,7 @@ def get_context_data(challenger_one, challenger_two, tags, affiliate_links):
         'permalink': permalink,
         'tags': tags,
         'affiliate_links': affiliate_links,
+        'perm': perm,
     }
 
 
@@ -416,6 +417,7 @@ def permalink(challenger_one, challenger_two):
             challenger_two,
             tags,
             affiliate_links,
+            perm=True,
         )
 
 
