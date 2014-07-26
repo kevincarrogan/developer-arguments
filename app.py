@@ -114,7 +114,10 @@ arguments = [
     (
         ('XBox', 'PlayStation',),
         ('games',),
-        (),
+        (
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=B00BE4OUBG&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=B00BE4HOIM&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+        ),
     ),
     (
         ('Compiled', 'Interpreted',),
