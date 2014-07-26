@@ -23,32 +23,32 @@ arguments = [
         ('CBV', 'FBV',),
         ('django', 'python',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=098146730X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1430258098&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=098146730X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1430258098&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('Linux', 'Mac OS X',),
         ('os',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449316697&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=059652062X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449316697&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=059652062X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('Emacs', 'Vim',),
         ('editors',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0596006489&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=059652983X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0596006489&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=059652983X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('Semi-colons', 'No semi-colons',),
         ('javascript',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0596517742&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0596805527&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0596517742&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0596805527&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
@@ -65,40 +65,40 @@ arguments = [
         ('Angular', 'Backbone',),
         ('javascript',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449344852&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449328253&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449344852&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449328253&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('Ruby on Rails', 'Django',),
         ('frameworks',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1937785564&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1430258098&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1937785564&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1430258098&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('PHP', 'Anything else',),
         ('languages',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449392776&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=144936375X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449392776&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=144936375X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('Feature switching', 'Branching',),
         ('workflow',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449325866&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1430218339&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449325866&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1430218339&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('Meetings', 'Doing actual work',),
         ('workflow',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0740777351&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0321579364&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0740777351&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0321579364&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
@@ -145,24 +145,24 @@ arguments = [
         ('CoffeeScript', 'Plain JS',),
         ('languages',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449321054&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0596517742&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449321054&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0596517742&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('NoSQL', 'SQL',),
         ('databases',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0321826620&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1934356921&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0321826620&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1934356921&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('MySQL', 'Postgres',),
         ('databases',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=059652708X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449326331&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=059652708X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449326331&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         )
     ),
     (
@@ -234,16 +234,16 @@ arguments = [
         ('OpenGL', 'DirectX',),
         ('frameworks',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=159863528X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1435458958&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=159863528X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1435458958&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
         ('Git', 'Mercurial',),
         ('versioning',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449325866&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0596800673&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449325866&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0596800673&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
@@ -260,24 +260,24 @@ arguments = [
         ('FP', 'OOP',),
         ('languages',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449365515&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=B00BP83RMO&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449365515&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=B00BP83RMO&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         )
     ), 
     (
         ('Java', 'C++',),
         ('languages',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449319246&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0131103628&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449319246&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0131103628&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         )
     ),
     (
         ('Python', 'Ruby',),
         ('languages',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449355730&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=0596516177&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449355730&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=0596516177&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         )
     ),
     (
@@ -289,8 +289,8 @@ arguments = [
         ('LESS', 'SASS',),
         ('CSS extensions',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=178216376X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=B00BKXQTBA&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=178216376X&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=B00BKXQTBA&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         ),
     ),
     (
@@ -322,7 +322,7 @@ arguments = [
         ('Flask', 'Bottle'),
         ('Frameworks',),
         (
-            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargume-21&o=2&p=8&l=as1&asins=1449372627&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+            '<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=develoargum08-21&o=2&p=8&l=as1&asins=1449372627&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
         )
     ),
     (
