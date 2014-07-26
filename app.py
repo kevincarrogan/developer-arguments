@@ -306,8 +306,8 @@ def permalink(challenger_one, challenger_two):
 def home():
     argument = random.choice(arguments)
 
-    challengers = list(argument[0])
-    random.shuffle(challengers)
+    challengers, _ = argument
+    random.shuffle(list(challengers))
 
     return get_context_data(*challengers)
 
