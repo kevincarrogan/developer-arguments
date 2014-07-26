@@ -1,5 +1,6 @@
 import functools
 import random
+import itertools
 
 import os
 import gevent
@@ -10,7 +11,7 @@ gevent.monkey.patch_all()
 from pystache.loader import Loader
 from pystache import render
 
-from flask import Flask, redirect, abort
+from flask import Flask, abort, url_for
 
 
 app = Flask(__name__)
@@ -246,9 +247,15 @@ def slugify(string):
     return string.lower().replace(' ', '-')
 
 
-routes = {
-    (slugify(argument[0][0]), slugify(argument[0][1]),): (argument[0][0], argument[0][1],) for argument in arguments
-}
+routes = {}
+
+for argument in arguments:
+    challengers, tags = argument
+
+    for perm in itertools.permutations(challengers):
+        slugs = tuple(slugify(c) for c in perm)
+
+        routes[slugs] = (perm, tags,)
 
 
 def render_template(section_name):
@@ -269,6 +276,31 @@ def render_template(section_name):
     return func_wrapper
 
 
+def get_context_data(challenger_one, challenger_two):
+    permalink = url_for(
+        'permalink',
+        challenger_one=slugify(challenger_one),
+        challenger_two=slugify(challenger_two),
+    )
+
+    return {
+        'challenger_one': challenger_one,
+        'challenger_two': challenger_two,
+        'permalink': permalink,
+    }
+
+
+@app.route('/<challenger_one>-vs-<challenger_two>/')
+@render_template('home')
+def permalink(challenger_one, challenger_two):
+    try:
+        challengers, _ = routes[(challenger_one, challenger_two,)]
+    except KeyError:
+        abort(404)
+    else:
+        return get_context_data(*challengers)
+
+
 @app.route('/')
 @render_template('home')
 def home():
@@ -277,15 +309,7 @@ def home():
     challengers = list(argument[0])
     random.shuffle(challengers)
 
-    challenger_one = challengers[0]
-    challenger_two = challengers[1]
-    tags = argument[1]
-
-    return {
-        'challenger_one': challenger_one,
-        'challenger_two': challenger_two,
-        'tags': tags,
-    }
+    return get_context_data(*challengers)
 
 
 if __name__ == '__main__':
