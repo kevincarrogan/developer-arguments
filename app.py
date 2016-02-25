@@ -96,7 +96,7 @@ arguments = [
         ('formats',),
     ),
     (
-        ('CoffeeScript', 'Plain JS',),
+        ('CoffeeScript', 'Vanilla JS',),
         ('languages',),
     ),
     (
