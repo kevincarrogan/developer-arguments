@@ -38,7 +38,7 @@ arguments = [
     ('Photoshop', 'Gimp',),
     ('CLI', 'GUI',),
     ('XML', 'JSON',),
-    ('CoffeeScript', 'Plain JS',),
+    ('CoffeeScript', 'JavaScript',),
     ('NoSQL', 'SQL',),
     ('MySQL', 'Postgres',),
     ('Pronounced OS eks', 'Pronounced OS ten',),
