@@ -74,6 +74,9 @@ arguments = [
     ('Marvel', 'DC'),
     ('Star Wars', 'Star Trek'),
     ('ORMs', 'Raw SQL'),
+    ('Angular', 'React'),
+    ('Batman', 'Superman'),
+    ('Code', 'Sleep'),
 ]
 
 
