@@ -19,226 +19,61 @@ loader = Loader()
 
 
 arguments = [
-    (
-        ('CBV', 'FBV',),
-        ('django', 'python',),
-    ),
-    (
-        ('Linux', 'Mac OS X',),
-        ('os',),
-    ),
-    (
-        ('Emacs', 'Vim',),
-        ('editors',),
-    ),
-    (
-        ('Semi-colons', 'No semi-colons',),
-        ('javascript',),
-    ),
-    (
-        ('Mac', 'PC',),
-        ('os',),
-    ),
-    (
-        ('Consoles', 'PC',),
-        ('games',),
-    ),
-    (
-        ('Angular', 'Backbone',),
-        ('javascript',),
-    ),
-    (
-        ('Ruby on Rails', 'Django',),
-        ('frameworks',),
-    ),
-    (
-        ('PHP', 'Anything else',),
-        ('languages',),
-    ),
-    (
-        ('Feature switching', 'Branching',),
-        ('workflow',),
-    ),
-    (
-        ('Meetings', 'Doing actual work',),
-        ('workflow',),
-    ),
-    (
-        ('IDE', 'Text Editor',),
-        ('editors',),
-    ),
-    (
-        ('iOS', 'Android',),
-        ('os',),
-    ),
-    (
-        ('XBox', 'PlayStation',),
-        ('games',),
-    ),
-    (
-        ('Compiled', 'Interpreted',),
-        ('languages',),
-    ),
-    (
-        ('Spaces', 'Tabs',),
-        ('code',),
-    ),
-    (
-        ('Photoshop', 'Gimp',),
-        ('editors',),
-    ),
-    (
-        ('CLI', 'GUI',),
-        (),
-    ),
-    (
-        ('XML', 'JSON',),
-        ('formats',),
-    ),
-    (
-        ('CoffeeScript', 'Plain JS',),
-        ('languages',),
-    ),
-    (
-        ('NoSQL', 'SQL',),
-        ('databases',),
-    ),
-    (
-        ('MySQL', 'Postgres',),
-        ('databases',),
-    ),
-    (
-        ('Pronounced OS eks', 'Pronounced OS ten',),
-        ('naming',),
-    ),
-    (
-        ('Pronounced gif', 'Pronounced gif',),
-        ('naming',),
-    ),
-    (
-        ('Top posting', 'Bottom posting',),
-        ('email',),
-    ),
-    (
-        ('SysV', 'BSD',),
-        ('os',),
-    ),
-    (
-        ('Sun OS', 'Solaris',),
-        ('os',),
-    ),
-    (
-        ('Carbon', 'Cocoa',),
-        ('frameworks',),
-    ),
-    (
-        ('Sockets', 'Streams',),
-        (),
-    ),
-    (
-        ('IPv4', 'IPv6',),
-        ('protocols',),
-    ),
-    (
-        ('REST', 'SOAP',),
-        ('protocols',),
-    ),
-    (
-        ('ASCII', 'EBCDIC',),
-        (),
-    ),
-    (
-        ('Little endian', 'Big endian',),
-        ('fundamentals'),
-    ),
-    (
-        ('PowerPC', 'Intel',),
-        ('hardware',),
-    ),
-    (
-        ('nVidia', 'ATI',),
-        ('hardware',),
-    ),
-    (
-        ('OpenGL', 'DirectX',),
-        ('frameworks',),
-    ),
-    (
-        ('Git', 'Mercurial',),
-        ('versioning',),
-    ),
-    (
-        ('Native', 'Web',),
-        (),
-    ),
-    (
-        ('BSD KNF Style', 'Allman Style',),
-        ('code',),
-    ),
-    (
-        ('FP', 'OOP',),
-        ('languages',),
-    ), 
-    (
-        ('Java', 'C++',),
-        ('languages',),
-    ),
-    (
-        ('Python', 'Ruby',),
-        ('languages',),
-    ),
-    (
-        ('Zsh', 'Bash',),
-        ('os',),
-    ),
-    (
-        ('LESS', 'SASS',),
-        ('CSS extensions',),
-    ),
-    (
-        ('jQuery animations', 'CSS Animations'),
-        ('web'),
-    ),
-    (
-        ('Boolean', 'boolean',),
-        (),
-    ),
-    (
-        ('DHH', 'TDD',),
-        ('Testing', 'Internet "celebrities"'),
-    ),
-    (
-        ('Swift', 'Objective C'),
-        ('Languages', 'iOS',),
-    ),
-    (
-        ('Grunt', 'Gulp'),
-        ('Build tools',),
-    ),
-    (
-        ('Flask', 'Bottle'),
-        ('Frameworks',),
-    ),
-    (
-        ('MIT', 'GPL'),
-        ('Licenses',),
-    ),
-    (
-        ('Inverted', 'Non-inverted mouse'),
-        ('Gaming',),
-    ),
-    (
-        ('Marvel', 'DC'),
-        ('Comics',),
-    ),
-    (
-        ('Star Wars', 'Star Trek'),
-        (),
-    ),
-    (
-        ('ORMs', 'Raw SQL'),
-        (),
-    ),
+    ('CBV', 'FBV',),
+    ('Linux', 'Mac OS X',),
+    ('Emacs', 'Vim',),
+    ('Semi-colons', 'No semi-colons',),
+    ('Mac', 'PC',),
+    ('Consoles', 'PC',),
+    ('Angular', 'Backbone',),
+    ('Ruby on Rails', 'Django',),
+    ('PHP', 'Anything else',),
+    ('Feature switching', 'Branching',),
+    ('Meetings', 'Doing actual work',),
+    ('IDE', 'Text Editor',),
+    ('iOS', 'Android',),
+    ('XBox', 'PlayStation',),
+    ('Compiled', 'Interpreted',),
+    ('Spaces', 'Tabs',),
+    ('Photoshop', 'Gimp',),
+    ('CLI', 'GUI',),
+    ('XML', 'JSON',),
+    ('CoffeeScript', 'Plain JS',),
+    ('NoSQL', 'SQL',),
+    ('MySQL', 'Postgres',),
+    ('Pronounced OS eks', 'Pronounced OS ten',),
+    ('Pronounced gif', 'Pronounced gif',),
+    ('Top posting', 'Bottom posting',),
+    ('SysV', 'BSD',),
+    ('Sun OS', 'Solaris',),
+    ('Carbon', 'Cocoa',),
+    ('Sockets', 'Streams',),
+    ('IPv4', 'IPv6',),
+    ('REST', 'SOAP',),
+    ('ASCII', 'EBCDIC',),
+    ('Little endian', 'Big endian',),
+    ('PowerPC', 'Intel',),
+    ('nVidia', 'ATI',),
+    ('OpenGL', 'DirectX',),
+    ('Git', 'Mercurial',),
+    ('Native', 'Web',),
+    ('BSD KNF Style', 'Allman Style',),
+    ('FP', 'OOP',),
+    ('Java', 'C++',),
+    ('Python', 'Ruby',),
+    ('Zsh', 'Bash',),
+    ('LESS', 'SASS',),
+    ('jQuery animations', 'CSS Animations'),
+    ('Boolean', 'boolean',),
+    ('DHH', 'TDD',),
+    ('Swift', 'Objective C'),
+    ('Grunt', 'Gulp'),
+    ('Flask', 'Bottle'),
+    ('MIT', 'GPL'),
+    ('Inverted', 'Non-inverted mouse'),
+    ('Marvel', 'DC'),
+    ('Star Wars', 'Star Trek'),
+    ('ORMs', 'Raw SQL'),
 ]
 
 
@@ -248,13 +83,11 @@ def slugify(string):
 
 routes = {}
 
-for argument in arguments:
-    challengers, tags = argument
-
+for challengers in arguments:
     for perm in itertools.permutations(challengers):
         slugs = tuple(slugify(c) for c in perm)
 
-        routes[slugs] = (perm, tags,)
+        routes[slugs] = perm
 
 
 def render_template(section_name):
@@ -275,7 +108,7 @@ def render_template(section_name):
     return func_wrapper
 
 
-def get_context_data(challenger_one, challenger_two, tags, perm=False):
+def get_context_data(challenger_one, challenger_two, perm=False):
     permalink = url_for(
         'permalink',
         challenger_one=slugify(challenger_one),
@@ -286,7 +119,6 @@ def get_context_data(challenger_one, challenger_two, tags, perm=False):
         'challenger_one': challenger_one,
         'challenger_two': challenger_two,
         'permalink': permalink,
-        'tags': tags,
         'perm': perm,
     }
 
@@ -295,7 +127,7 @@ def get_context_data(challenger_one, challenger_two, tags, perm=False):
 @render_template('home')
 def permalink(challenger_one, challenger_two):
     try:
-        challengers, tags = routes[(challenger_one, challenger_two,)]
+        challengers = routes[(challenger_one, challenger_two,)]
     except KeyError:
         abort(404)
     else:
@@ -303,7 +135,6 @@ def permalink(challenger_one, challenger_two):
         return get_context_data(
             challenger_one,
             challenger_two,
-            tags,
             perm=True,
         )
 
@@ -311,9 +142,7 @@ def permalink(challenger_one, challenger_two):
 @app.route('/')
 @render_template('home')
 def home():
-    argument = random.choice(arguments)
-
-    challengers, tags = argument
+    challengers = random.choice(arguments)
     challengers = list(challengers)
     random.shuffle(challengers)
 
@@ -322,7 +151,6 @@ def home():
     return get_context_data(
         challenger_one,
         challenger_two,
-        tags,
     )
 
 
