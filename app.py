@@ -77,6 +77,9 @@ arguments = [
     ('Angular', 'React'),
     ('Batman', 'Superman'),
     ('Code', 'Sleep'),
+    ('Morrowind', 'Skyrim'),
+    ('Covariance', 'Contravariance'),
+    ('Java', 'C#'),
 ]
 
 
