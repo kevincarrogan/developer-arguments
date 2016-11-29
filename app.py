@@ -83,6 +83,7 @@ arguments = [
     ('Zed Shaw', 'Python 3'),
     ('Python 2', 'Python 3'),
     ('Vue', 'React'),
+    ('Replicant', 'Not a replicant'),
 ]
 
 
