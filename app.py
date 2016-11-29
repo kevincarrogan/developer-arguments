@@ -80,6 +80,8 @@ arguments = [
     ('Morrowind', 'Skyrim'),
     ('Covariance', 'Contravariance'),
     ('Java', 'C#'),
+    ('Zed Shaw', 'Python 3'),
+    ('Python 2', 'Python 3'),
 ]
 
 
