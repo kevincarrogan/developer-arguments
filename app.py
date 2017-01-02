@@ -40,16 +40,26 @@ for challengers in arguments:
         routes[slugs] = perm
 
 
+cache = {}
+
+
 def render_template():
     def func_wrapper(func):
         @functools.wraps(func)
-        def renderer(*args, **kwargs):
-            context = func(*args, **kwargs)
+        def renderer(**kwargs):
+            context = func(**kwargs)
+            key = tuple(context.values())
+            output = cache.get(key)
 
-            return render(
-                home_template,
-                context,
-            )
+            if not output:
+                output = render(
+                    home_template,
+                    context,
+                )
+                cache[key] = output
+
+            return output
+
         return renderer
 
     return func_wrapper
