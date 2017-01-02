@@ -24,6 +24,8 @@ Compress(app)
 
 loader = Loader()
 
+home_template = loader.load_name('templates/home')
+
 
 def slugify(string):
     return string.lower().replace(' ', '-')
@@ -38,17 +40,14 @@ for challengers in arguments:
         routes[slugs] = perm
 
 
-def render_template(section_name):
-    template = loader.load_name('templates/%s' % section_name)
-
+def render_template():
     def func_wrapper(func):
-
         @functools.wraps(func)
         def renderer(*args, **kwargs):
             context = func(*args, **kwargs)
 
             return render(
-                template,
+                home_template,
                 context,
             )
         return renderer
@@ -72,7 +71,7 @@ def get_context_data(challenger_one, challenger_two, perm=False):
 
 
 @app.route('/<challenger_one>-vs-<challenger_two>/')
-@render_template('home')
+@render_template()
 def permalink(challenger_one, challenger_two):
     try:
         challengers = routes[(challenger_one, challenger_two,)]
@@ -88,7 +87,7 @@ def permalink(challenger_one, challenger_two):
 
 
 @app.route('/')
-@render_template('home')
+@render_template()
 def home():
     challengers = random.choice(arguments)
     challengers = list(challengers)
