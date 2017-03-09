@@ -64,4 +64,5 @@ arguments = [
     ('Python 2', 'Python 3'),
     ('Vue', 'React'),
     ('Replicant', 'Not a replicant'),
+    ('AWS', 'Google Cloud Platform'),
 ]
