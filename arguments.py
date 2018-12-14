@@ -18,6 +18,7 @@ arguments = [
     ('Photoshop', 'Gimp',),
     ('CLI', 'GUI',),
     ('XML', 'JSON',),
+    ('INI', 'YAML',),
     ('CoffeeScript', 'JavaScript',),
     ('NoSQL', 'SQL',),
     ('MySQL', 'Postgres',),
