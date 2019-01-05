@@ -18,6 +18,7 @@ arguments = [
     ('Photoshop', 'Gimp',),
     ('CLI', 'GUI',),
     ('XML', 'JSON',),
+    ('INI', 'YAML',),
     ('CoffeeScript', 'JavaScript',),
     ('NoSQL', 'SQL',),
     ('MySQL', 'Postgres',),
@@ -66,4 +67,6 @@ arguments = [
     ('Replicant', 'Not a replicant'),
     ('AWS', 'Google Cloud Platform'),
     ('Slack', 'Discord'),
+    ('Rich models', 'Anemic models'),
+    ('Symfony', 'Laravel'),
 ]
