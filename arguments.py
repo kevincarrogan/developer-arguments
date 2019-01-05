@@ -65,5 +65,6 @@ arguments = [
     ('Vue', 'React'),
     ('Replicant', 'Not a replicant'),
     ('AWS', 'Google Cloud Platform'),
+    ('Rich models', 'Anemic models'),
     ('Symfony', 'Laravel'),
 ]
