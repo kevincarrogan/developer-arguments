@@ -69,4 +69,5 @@ arguments = [
     ('Slack', 'Discord'),
     ('Rich models', 'Anemic models'),
     ('Symfony', 'Laravel'),
+    ('Monolith', 'Microservices'),
 ]
