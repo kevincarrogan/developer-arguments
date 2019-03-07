@@ -3,5 +3,5 @@ pystache==0.5.4
 greenlet==0.4.15
 gunicorn==19.9.0
 gevent==1.4.0
-newrelic==4.12.0.113
 Flask-Compress==1.4.0
+flask-talisman==0.6.0
