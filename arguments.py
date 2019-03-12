@@ -70,4 +70,6 @@ arguments = [
     ('Rich models', 'Anemic models'),
     ('Symfony', 'Laravel'),
     ('Monolith', 'Microservices'),
+    ('HOC', 'Render props'),
+    ('Hooks', 'Life cycle methods'),
 ]
