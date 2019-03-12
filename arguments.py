@@ -72,4 +72,5 @@ arguments = [
     ('Monolith', 'Microservices'),
     ('HOC', 'Render props'),
     ('Hooks', 'Life cycle methods'),
+    ('Auth0', 'Cognito'),
 ]
