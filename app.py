@@ -7,6 +7,7 @@ import gevent
 import gevent.monkey
 
 from gevent.pywsgi import WSGIServer
+
 gevent.monkey.patch_all()
 
 from pystache.loader import Loader
@@ -22,16 +23,16 @@ from arguments import arguments
 
 app = Flask(__name__)
 Compress(app)
-GOOGLE_CSP_POLICY['style-src'] += ' cdnjs.cloudflare.com'
+GOOGLE_CSP_POLICY["style-src"] += " cdnjs.cloudflare.com"
 Talisman(app, content_security_policy=GOOGLE_CSP_POLICY)
 
 loader = Loader()
 
-home_template = loader.load_name('templates/home')
+home_template = loader.load_name("templates/home")
 
 
 def slugify(string):
-    return string.lower().replace(' ', '-')
+    return string.lower().replace(" ", "-")
 
 
 routes = {}
@@ -55,10 +56,7 @@ def render_template():
             output = cache.get(key)
 
             if not output:
-                output = render(
-                    home_template,
-                    context,
-                )
+                output = render(home_template, context)
                 cache[key] = output
 
             return output
@@ -70,36 +68,32 @@ def render_template():
 
 def get_context_data(challenger_one, challenger_two, perm=False):
     permalink = url_for(
-        'permalink',
+        "permalink",
         challenger_one=slugify(challenger_one),
         challenger_two=slugify(challenger_two),
     )
 
     return {
-        'challenger_one': challenger_one,
-        'challenger_two': challenger_two,
-        'permalink': permalink,
-        'perm': perm,
+        "challenger_one": challenger_one,
+        "challenger_two": challenger_two,
+        "permalink": permalink,
+        "perm": perm,
     }
 
 
-@app.route('/<challenger_one>-vs-<challenger_two>/')
+@app.route("/<challenger_one>-vs-<challenger_two>/")
 @render_template()
 def permalink(challenger_one, challenger_two):
     try:
-        challengers = routes[(challenger_one, challenger_two,)]
+        challengers = routes[(challenger_one, challenger_two)]
     except KeyError:
         abort(404)
     else:
         challenger_one, challenger_two = challengers
-        return get_context_data(
-            challenger_one,
-            challenger_two,
-            perm=True,
-        )
+        return get_context_data(challenger_one, challenger_two, perm=True)
 
 
-@app.route('/')
+@app.route("/")
 @render_template()
 def home():
     challengers = random.choice(arguments)
@@ -108,13 +102,10 @@ def home():
 
     challenger_one, challenger_two = challengers
 
-    return get_context_data(
-        challenger_one,
-        challenger_two,
-    )
+    return get_context_data(challenger_one, challenger_two)
 
 
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    http_server = WSGIServer(('0.0.0.0', port), app)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    http_server = WSGIServer(("0.0.0.0", port), app)
     http_server.serve_forever()
