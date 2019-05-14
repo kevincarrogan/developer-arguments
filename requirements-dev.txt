@@ -1,2 +1,4 @@
 ipython
 ipdb
+black
+pre-commit
