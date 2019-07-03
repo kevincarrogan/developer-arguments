@@ -74,4 +74,5 @@ arguments = [
     ("Hooks", "Life cycle methods"),
     ("Auth0", "Cognito"),
     ("Operator Mono Medium Italic", "Regular mono font"),
+    ("!!", "Boolean"),
 ]
