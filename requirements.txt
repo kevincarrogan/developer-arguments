@@ -3,4 +3,3 @@ pystache==0.5.4
 greenlet==0.4.15
 gunicorn==19.9.0
 gevent==1.4.0
-Flask-Compress==1.4.0

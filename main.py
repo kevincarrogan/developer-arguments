@@ -13,13 +13,10 @@ from pystache import render
 
 from flask import Flask, abort, url_for
 
-from flask_compress import Compress
-
 from arguments import arguments
 
 
 app = Flask(__name__)
-Compress(app)
 
 loader = Loader()
 
