@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Developer Arguments{{# perm }} - {{ challenger_one }} vs. {{ challenger_two }}{{/ perm }}</title>
+        <title>Developer Arguments{% if perm %} - {{ challenger_one }} vs. {{ challenger_two }}{% endif %}</title>
         <meta name="viewport" content="user-scalable=yes">
 
-        <meta itemprop="name" content="Developer Arguments{{# perm }} - {{ challenger_one }} vs. {{ challenger_two }}{{/ perm }}" />
+        <meta itemprop="name" content="Developer Arguments{% if perm %} - {{ challenger_one }} vs. {{ challenger_two }}{% endif %}" />
         <meta itemprop="description" content="Are you a developer? Are you bored at work? Here, have an argument." />
         <meta itemprop="image" content="http://www.developerarguments.com/static/images/social.jpg" />
 
-        <meta property="og:title" content="Developer Arguments{{# perm }} - {{ challenger_one }} vs. {{ challenger_two }}{{/ perm }}" />
+        <meta property="og:title" content="Developer Arguments{% if perm %} - {{ challenger_one }} vs. {{ challenger_two }}{% endif %}" />
         <meta property="og:description" content="Are you a developer? Are you bored at work? Here, have an argument." />
         <meta property="og:image" content="http://www.developerarguments.com/static/images/social.jpg" />
 

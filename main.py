@@ -1,65 +1,23 @@
-import functools
-import random
 import itertools
+import random
 
-import os
-import gevent
-import gevent.monkey
-
-gevent.monkey.patch_all()
-
-from pystache.loader import Loader
-from pystache import render
-
-from flask import Flask, abort, url_for
+from starlette.applications import Starlette
+from starlette.responses import Response
+from starlette.routing import Route, Mount
+from starlette.staticfiles import StaticFiles
+from starlette.templating import Jinja2Templates
 
 from arguments import arguments
 
-
-app = Flask(__name__)
-
-loader = Loader()
-
-home_template = loader.load_name("templates/home")
+templates = Jinja2Templates(directory="templates")
 
 
 def slugify(string):
     return string.lower().replace(" ", "-")
 
 
-routes = {}
-
-for challengers in arguments:
-    for perm in itertools.permutations(challengers):
-        slugs = tuple(slugify(c) for c in perm)
-
-        routes[slugs] = perm
-
-
-cache = {}
-
-
-def render_template():
-    def func_wrapper(func):
-        @functools.wraps(func)
-        def renderer(**kwargs):
-            context = func(**kwargs)
-            key = tuple(context.values())
-            output = cache.get(key)
-
-            if not output:
-                output = render(home_template, context)
-                cache[key] = output
-
-            return output
-
-        return renderer
-
-    return func_wrapper
-
-
-def get_context_data(challenger_one, challenger_two, perm=False):
-    permalink = url_for(
+def get_context_data(request, challenger_one, challenger_two, perm=False):
+    permalink = request.url_for(
         "permalink",
         challenger_one=slugify(challenger_one),
         challenger_two=slugify(challenger_two),
@@ -70,28 +28,48 @@ def get_context_data(challenger_one, challenger_two, perm=False):
         "challenger_two": challenger_two,
         "permalink": permalink,
         "perm": perm,
+        "request": request,
     }
 
 
-@app.route("/<challenger_one>-vs-<challenger_two>/")
-@render_template()
+valid_routes = {}
+
+for challengers in arguments:
+    for perm in itertools.permutations(challengers):
+        slugs = tuple(slugify(c) for c in perm)
+
+        valid_routes[slugs] = perm
+
+
 def permalink(challenger_one, challenger_two):
     try:
         challengers = routes[(challenger_one, challenger_two)]
     except KeyError:
-        abort(404)
+        return Response("Not found", status_code=404)
     else:
         challenger_one, challenger_two = challengers
-        return get_context_data(challenger_one, challenger_two, perm=True)
+
+        return templates.TemplateResponse(
+            "argument.html", get_context_data(challenger_one, challenger_two, perm=True)
+        )
 
 
-@app.route("/")
-@render_template()
-def home():
+def home(request):
     challengers = random.choice(arguments)
     challengers = list(challengers)
     random.shuffle(challengers)
 
     challenger_one, challenger_two = challengers
 
-    return get_context_data(challenger_one, challenger_two)
+    return templates.TemplateResponse(
+        "argument.html", get_context_data(request, challenger_one, challenger_two)
+    )
+
+
+routes = [
+    Route("/", home),
+    Route("/{challenger_one}-vs-{challenger_two}/", permalink),
+    Mount("/static", StaticFiles(directory="static")),
+]
+
+app = Starlette(routes=routes)

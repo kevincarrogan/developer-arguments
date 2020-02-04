@@ -1,5 +1,4 @@
-Flask==1.0.2
-pystache==0.5.4
-greenlet==0.4.15
-gunicorn==19.9.0
-gevent==1.4.0
+aiofiles==0.4.0
+Jinja2==2.11.1
+starlette==0.13.1
+uvicorn==0.11.2
