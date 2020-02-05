@@ -18,3 +18,4 @@ npm-debug.log
 newrelic.ini
 
 .python-version
+.vscode
