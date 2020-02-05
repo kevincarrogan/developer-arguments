@@ -41,16 +41,19 @@ for challengers in arguments:
         valid_routes[slugs] = perm
 
 
-def permalink(challenger_one, challenger_two):
+def permalink(request):
+    challenger_one = request.path_params["challenger_one"]
+    challenger_two = request.path_params["challenger_two"]
     try:
-        challengers = routes[(challenger_one, challenger_two)]
+        challengers = valid_routes[(challenger_one, challenger_two)]
     except KeyError:
         return Response("Not found", status_code=404)
     else:
         challenger_one, challenger_two = challengers
 
         return templates.TemplateResponse(
-            "argument.html", get_context_data(challenger_one, challenger_two, perm=True)
+            "argument.html",
+            get_context_data(request, challenger_one, challenger_two, perm=True),
         )
 
 
