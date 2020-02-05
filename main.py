@@ -1,5 +1,7 @@
 import itertools
+import os
 import random
+import sentry_sdk
 
 from starlette.applications import Starlette
 from starlette.responses import Response
@@ -10,6 +12,11 @@ from starlette.templating import Jinja2Templates
 from arguments import arguments
 
 templates = Jinja2Templates(directory="templates")
+
+
+SENTRY_URL = os.environ.get("SENTRY_URL")
+if SENTRY_URL:
+    sentry_sdk.init(SENTRY_URL)
 
 
 def slugify(string):
