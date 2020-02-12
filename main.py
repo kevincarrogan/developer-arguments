@@ -24,7 +24,7 @@ def slugify(string):
 
 
 def get_context_data(request, challenger_one, challenger_two, perm=False):
-    permalink = request.url_for(
+    permalink = app.url_path_for(
         "permalink",
         challenger_one=slugify(challenger_one),
         challenger_two=slugify(challenger_two),
