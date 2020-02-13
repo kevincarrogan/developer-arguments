@@ -3,6 +3,8 @@ version: '3'
 services:
   web:
     build: .
+    environment:
+      - DEBUG=1
     ports:
       - "5000:80"
     volumes:

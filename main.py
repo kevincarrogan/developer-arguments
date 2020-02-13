@@ -1,9 +1,12 @@
 import itertools
+import logging
 import os
 import random
 import sentry_sdk
+import settings
 
 from starlette.applications import Starlette
+from starlette.config import Config
 from starlette.responses import Response
 from starlette.routing import Route, Mount
 from starlette.staticfiles import StaticFiles
@@ -14,9 +17,8 @@ from arguments import arguments
 templates = Jinja2Templates(directory="templates")
 
 
-SENTRY_URL = os.environ.get("SENTRY_URL")
-if SENTRY_URL:
-    sentry_sdk.init(SENTRY_URL)
+if settings.SENTRY_URL:
+    sentry_sdk.init(str(settings.SENTRY_URL))
 
 
 def slugify(string):
@@ -82,4 +84,4 @@ routes = [
     Mount("/static", StaticFiles(directory="static")),
 ]
 
-app = Starlette(routes=routes)
+app = Starlette(debug=settings.DEBUG, routes=routes)
