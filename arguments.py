@@ -76,4 +76,5 @@ arguments = [
     ("Operator Mono Medium Italic", "Regular mono font"),
     ("!!", "Boolean"),
     ("Class components", "Functional components"),
+    ("Black", "YAPF"),
 ]
