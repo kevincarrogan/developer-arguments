@@ -79,4 +79,5 @@ arguments = [
     ("Black", "YAPF"),
     ("Spotify", "Apple Music"),
     ("Bose QC35 II", "Sony WH-1000XM3"),
+    ("Your RAM", "Electron app"),
 ]
