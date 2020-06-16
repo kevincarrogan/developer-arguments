@@ -77,4 +77,6 @@ arguments = [
     ("!!", "Boolean"),
     ("Class components", "Functional components"),
     ("Black", "YAPF"),
+    ("Spotify", "Apple Music"),
+    ("Bose QC35 II", "Sony WH-1000XM3"),
 ]
