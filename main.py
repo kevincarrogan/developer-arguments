@@ -18,7 +18,7 @@ templates = Jinja2Templates(directory="templates")
 
 
 if settings.SENTRY_URL:
-    sentry_sdk.init(str(settings.SENTRY_URL))
+    sentry_sdk.init(str(settings.SENTRY_URL), release=settings.RELEASE)
 
 
 def slugify(string):
