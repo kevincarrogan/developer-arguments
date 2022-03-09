@@ -81,4 +81,5 @@ arguments = [
     ("Bose QC35 II", "Sony WH-1000XM3"),
     ("Your RAM", "Electron app"),
     ("'", '"'),
+    ("Look Before You Leap", "Easier to Ask For Forgiveness Than Permission"),
 ]
