@@ -82,4 +82,5 @@ arguments = [
     ("Your RAM", "Electron app"),
     ("'", '"'),
     ("Look Before You Leap", "Easier to Ask For Forgiveness Than Permission"),
+    ("Selenium", "Cypress"),
 ]
