@@ -83,4 +83,5 @@ arguments = [
     ("'", '"'),
     ("Look Before You Leap", "Easier to Ask For Forgiveness Than Permission"),
     ("Selenium", "Cypress"),
+    ("Emergent design", "Upfront design"),
 ]
