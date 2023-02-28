@@ -2,4 +2,4 @@ uvicorn~=0.15.0
 aiofiles~=0.8.0
 Jinja2~=3.1.1
 sentry-sdk~=1.5.8
-starlette~=0.19.0
+starlette~=0.25.0
