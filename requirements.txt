@@ -3,3 +3,4 @@ aiofiles~=0.8.0
 Jinja2~=3.1.1
 sentry-sdk~=1.14.0
 starlette~=0.27.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
